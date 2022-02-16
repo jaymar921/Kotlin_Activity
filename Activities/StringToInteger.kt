@@ -10,7 +10,7 @@ fun main(args : Array<String>){
     var kotlin : Int = str.toInt()         // using the Kotlin way
 
     java++ // increment java
-    kotlin+2 // increment kotlin by 2
+    kotlin+=2 // increment kotlin by 2
     println("Java = $java")
     println("Kotlin = $kotlin")
 }
