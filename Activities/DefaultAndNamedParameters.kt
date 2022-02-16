@@ -1,7 +1,10 @@
 
 fun main(args : Array<String>){
 
-    var finalAmt = calcAmount(50) // using the default parameter
+    var finalAmt = calcAmount(50) // using the default parameter, interest = 0.04
+    println(finalAmt)
+    
+    var finalAmt = calcAmount(50, 0.02) // using the default parameter
     println(finalAmt)
 
     finalAmt = calcAmount(amount = 100, interest = 0.03) // using named parameter
