@@ -21,7 +21,7 @@ fun main(args : Array<String>){
     person_2.skills = "Kotlin"
     person_2.show()
 
-    val person_3 = person_1.plus(person_2)
+    val person_3 = person_1.plus(person_2) // calling the extension function
     person_3.show()
 }
 
